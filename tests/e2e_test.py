@@ -16,7 +16,7 @@ class TestE2E(unittest.TestCase):
             }
             module "root_modules" {
               source = "./mymodule"
-              providers = {aws = "aws"}
+              providers = {aws = aws}
               appsvpc_id                        = "1234"
               dq_lambda_subnet_cidr             = "10.1.42.0/24"
               apps_vpc_id                       = "vpc-12345"
