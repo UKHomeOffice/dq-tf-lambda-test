@@ -21,6 +21,7 @@ class TestE2E(unittest.TestCase):
               }
               appsvpc_id                        = "1234"
               dq_lambda_subnet_cidr             = "10.1.42.0/24"
+              dq_lambda_subnet_cidr_az2         = "10.1.43.0/24"
               apps_vpc_id                       = "vpc-12345"
               naming_suffix                     = "apps-preprod-dq"
             }
